@@ -1,0 +1,1 @@
+{"name":"Local: dynamic_array","url":"e:\\Download\\CSE 4303\\dynamic_array.c","tests":[{"id":1660580232711,"input":"5\n5 6 7 8 9","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Download\\CSE 4303\\dynamic_array.c","group":"local","local":true}
