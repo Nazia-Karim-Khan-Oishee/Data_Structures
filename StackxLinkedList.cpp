@@ -1,4 +1,3 @@
-// C++ program for linked list implementation of stack
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -33,7 +32,9 @@ void push(StackNode** root, int data)
 int pop(StackNode** root)
 {
 	if (isEmpty(*root))
-		return INT_MIN;
+{
+	return INT_MIN;
+}
 	StackNode* temp = *root;
 	*root = (*root)->next;
 	int popped = temp->data;
@@ -75,4 +76,3 @@ int main()
 	return 0;
 }
 
-// This is code is contributed by rathbhupendra
